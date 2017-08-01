@@ -1,0 +1,209 @@
+body.login {
+  background-color: #292365;
+}
+.ac_login_box .ac_button:hover,
+.ac_login_box .ac_button:active {
+    background-color: #6B3081 !important;
+    border-color: #3F134F !important;
+}
+.ac_login_box .ac_button:hover,
+.ac_login_box .ac_button:active {
+  border-color: #3F134F !important;
+}
+
+.ac_button.blue,
+.ac_button.bluebtn,
+.ac_multibutton > .icon,
+.ac_multibutton > ul,
+#page_header .mainmenu.shortmenu.open .shortmenu_wrap {
+  background-color: #452365 !important;
+  border-color: #290E42 !important;
+}
+.ac_button.blue:hover,
+.ac_button.bluebtn:hover,
+.ac_multibutton > .icon:hover,
+.ac_multibutton > ul > li > a :hover {
+   background-color: #290E42 !important;
+}
+.ac_multibutton > ul > li {
+  border-color: #431A52 !important;
+}
+.ac_multibutton > ul > li a:hover {
+  background-color: #431A52 !important;
+}
+
+/*Green Button */
+.ac_button.alt1,
+a.ac_button.alt1 {
+  background-color: #569166;
+  border-color: #376C5C;
+}
+.ac_button.alt1:hover,
+a.ac_button.alt1:hover {
+  background-color: #65B77C;
+  border-color: #376C5C;
+}
+/*Ligth Blue Button */
+.ac_button.alt2,
+a.ac_button.alt2,
+.ac_button.blue,
+a.ac_button.blue,
+.action-popover-subheader .popover-trigger,
+.subheader .popover-trigger,
+.mini-button-top > .popover-trigger,
+.ac_multibutton > .icon {
+  background-color: #6B3081 !important;
+  border-color: #59256C !important;
+}
+
+.ac_button.alt2:hover,
+a.ac_button.alt2:hover,
+.ac_button.blue:hover,
+a.ac_button.blue:hover,
+.action-popover-subheader .popover-trigger:hover,
+.subheader .popover-trigger:hover,
+.ac_multibutton > .icon:hover {
+  background-color: #AE3E8A !important;
+  border-color: #59256C !important;
+}
+
+/*Header Color: */
+#uxheader,
+#page_header {
+  background: #6B3081 !important;
+}
+
+/*Dashboard border:*/
+#uxbody {
+  background-color: #FAFAFF;
+}
+
+/*Dashboard Body:*/
+#footerwrapper {
+  background-color: #6B3081;
+}
+
+/*Dashboard Non-Selected Buttons:*/
+#uxheader .main_menu li a:link,
+#uxheader .main_menu li a:visited {
+  background-color: #1475a7;
+}
+
+/*Dashboard Buttons Selected:*/
+#uxheader .main_menu li a.active,
+.nav.active {
+  background-color: #4E2274 !important;
+}
+
+#page_header .mainmenu li a:hover {
+  background-color: #8D3786;
+}
+
+#ac_subheader-wrap,
+.ac_subheader,
+div.steps-series,
+body.template_view #page_header,
+body.designer2 #page_header,
+body.campaign_new #page_header,
+body.campaign_designer #page_header,
+body.old.template #page_header {
+  background-color: #4E2274 !important;
+}
+div.steps-series > span, {
+  background: #6B3081 !important;
+  color: #ffffff;
+}
+div.steps-series > span:before {
+  border-left-color: #4E2274;
+}
+div.steps-series > span:after {
+  border-left-color: #6B3081 !important;
+}
+div.steps-series > span:last-child {
+    background-color: #8D3786;
+    color: #FFF;
+}
+
+/*Dashboard Buttons when hovered over: */
+#uxheader .main_menu li a:hover {
+  background-color: #6B3081;
+}
+
+/*Account Settings Buttons non-selected (button color, border color/width, text color): */
+#uxheader .hdrwrap .act_menu li a:link,
+#uxheader .hdrwrap .act_menu li a:visited {
+  background-color: #1a4d8a;
+  border: 5px solid #10396b;
+  color: #dadada;
+}
+
+/*Side navigation*/
+.ac_sidenav ul li a.active,
+.ac_sidenav ul li.active a {
+  border-color: #6B3081;
+}
+
+/*Account Settings Buttons dropdown: */
+#uxheader .hdrwrap .act_menu ul li > ul {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+/*Account Settings Search Bar: */
+#uxheader .hdrwrap .act_menu li div.searchwrap {
+  background-color: #749fd3;
+}
+
+/*Tables*/
+.ac_lists .ac_lists-header,
+.ac_pagination {
+  background-color: #E1E1EA !important;
+  border-color: #C8C8D2 !important;
+}
+
+.notify.success {
+  background-color: #97B976;
+}
+
+/*Focus states*/
+.ac_popover:not(.subheader) .ac_button:focus {
+  border-color: #E53B88 !important;
+}
+
+/*Form names*/
+#ac_main_header #ac_main_header-wrap .form-progress-name .form-name {
+  border-color: #AE3E8A !important;
+}
+#ac_main_header #ac_main_header-wrap .form-progress-name .form-name:hover {
+  background-color: #AE3E8A !important;
+}
+#ac_main_header #ac_main_header-wrap .form-progress-name .form-name:focus {
+  border-color: #E53B88 !important;
+  background-color: #AE3E8A !important;
+}
+/*Rename automation*/
+#header_series_options .pageTitle #name_span.hover {
+  background-color: #AE3E8A;
+}
+#header_series_options .pageTitle #name_input {
+  border-color: #E53B88 !important;
+  background-color: #AE3E8A !important;
+}
+
+/*Loading*/
+#ac_loader-bar,
+.ac_loader-bar {
+  background: #E53B88;
+  height: 5px;
+}
+
+/*campaigns active/inactive*/
+#header_series_options .toprightnav .series-status-options [id^="status_"].active {
+  background-color: #AE3E8A;
+}
+#header_series_options .toprightnav .series-status-options [id^="status_"] {
+  background-color: #6B3081;
+}
+#header_series_options .toprightnav .saveres {
+  color: #fafaff;
+}
